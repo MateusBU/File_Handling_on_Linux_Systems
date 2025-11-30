@@ -56,6 +56,33 @@ This program:
 
 ---
 
+### ✅ 4. **main_4.c — Character-by-character copy**
+This program copies the content of `data.txt` into `new.txt` one character at a time using:
+- `fgetc()` to read characters  
+- `fputc()` to write them  
+Useful for understanding low-level byte/char file operations.
+
+---
+
+### ✅ 5. **main_5.c — Line-by-line copy**
+This version performs file copying using lines instead of single characters.  
+It uses:
+- `fgets()` to read each entire line  
+- `fputs()` to write the line to a new file  
+
+It is more efficient for text files and preserves line structure.
+
+---
+
+### ✅ 6. **main_6.c — Formatted write and read**
+This example demonstrates:
+- Writing formatted text using `fprintf()`  
+- Reading structured data (string + two integers) using `fscanf()`  
+
+It shows how to work with structured text files such as logs, configuration entries, or simple databases.
+
+---
+
 # 🧠 What You Learn
 
 - Opening files (`r`, `rb`, `wb`)
